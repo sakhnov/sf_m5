@@ -1,0 +1,118 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1em;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+
+header {
+    background: url(../images/novosibirsk.jpg) center center no-repeat;
+    height: 300px;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    background: #ffffffbe;
+    padding: 20px 30px;
+    color: #00459d;
+    border-radius: 8px;
+}
+footer {
+    background: #01316d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer a {
+    color: #fff;
+    font-size: 18px;
+}
+footer a:hover {
+    text-decoration: none;
+}
+nav {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+ul.footer-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.copyright {
+    margin-top: 15px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+article {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+/*
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+*/    
+}
+article:last-child {
+    border-bottom: none;
+    padding-bottom: inherit;
+    margin-bottom: inherit;
+}
+
+article:nth-child(even) {
+    background: #eee;
+    padding: 20px;
+}
+
+article a {
+    color: #0070ff;
+    text-decoration: none;
+}
+article a:hover {
+    color: #006effbe;
+}
+.article-meta {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.article-img img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
